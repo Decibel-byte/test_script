@@ -5,3 +5,4 @@ echo "$NUMBER"
 echo "This was added"
 echo "Hello from RedHat Linux 8"
 date
+echo "Aziz"
