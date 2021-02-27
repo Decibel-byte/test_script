@@ -13,7 +13,7 @@ pipeline {
       }
       steps {
         sh 'date'
-        echo 'Hi Aziz!'
+        sh 'echo "Hi Aziz!"'
       }
     }
 
