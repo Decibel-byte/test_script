@@ -13,7 +13,7 @@ pipeline {
 
     stage('archiving') {
       steps {
-        archiveArtifacts(artifacts: 'pipeline.log', fingerprint: true)
+        archiveArtifacts(artifacts: './Downloads/*.py', fingerprint: true)
       }
     }
 
