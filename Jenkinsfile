@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'linux'
+    }
+
+  }
   stages {
     stage('stage') {
       agent any
@@ -8,6 +13,7 @@ pipeline {
       }
       steps {
         sh 'date'
+        echo 'Hi Aziz!'
       }
     }
 
